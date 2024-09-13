@@ -1,0 +1,125 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+.container{
+    flex:1;
+}
+
+/* navbar */
+
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+.fa-solid{
+  font-size: 1.9rem;
+  color:#fe424d ;
+  text-align: center;  
+}
+.nav-link {
+    color: #222222 !important;
+}
+
+
+
+
+
+/* footer */
+.privacy-policy a {
+    text-decoration: none;
+    color: #222222;
+}
+.privacy-policy a:hover{
+    text-decoration: underline;
+}
+.f-social , .privacy-policy ,.company-term {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-social i {
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+.ftr-info{
+    text-align: center;
+    height:8rem;
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+
+
+/* cards */
+
+.listings-card{
+   border: none !important; 
+   margin-bottom: 2rem;
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover;
+}
+.card-body{
+    padding: 0 !important;
+}
+
+.card-text p {
+ font-weight: 400;
+}
+
+.listing-link{
+    text-decoration: none;
+}
+/* card effect */
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{ 
+    opacity: 0.2;
+    background-color: white;
+}
+
+/* new page add */
+
+.add-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+
+/* show img */
+.show-img{
+    height: 30vh;
+}
+
+ .btns{
+    display: flex;
+    
+ }
+
+ .show-btn {
+    background-color: #fe424d !important;
+ border: none !important;
+}
+.show-card{
+    padding-left: 0;
+    padding-right: 0;
+}
+   
+
+
+
+
+
+    

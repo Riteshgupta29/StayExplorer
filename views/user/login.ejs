@@ -1,0 +1,31 @@
+<% layout ("/layouts/boilerplate") %>
+
+<div class="row mt-3">
+    <h1 class="col-6 offset-3"> Welcome to StayExplorer </h1>
+    <div class="col-6 offset-3">
+   
+        <form method="post" action="/login" novalidate class="needs-validation">
+            <div class="mb-3">
+                <label for="username" class="form-label"> Username </label>
+                <input name="username" id="username" type="text" class="form-control"  required>
+            
+            </div>
+     
+            
+
+            <div class="mb-3">
+                <label for="password" class="form-label"> password </label>
+                <input name="password" id="password"  class="form-control" type="password" required>
+                
+            </div>
+<button class="btn btn-dark add-btn">Login</button>
+<!-- <form action="/singup">
+    <button class="btn btn-dark add-btn">Singup</button>
+    </form>
+
+     </form> -->
+ <!-- <div class="col-6 offset-3 mb-3">
+         </div> -->
+    </div>
+           
+</div>
