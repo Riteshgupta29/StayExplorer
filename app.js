@@ -22,11 +22,13 @@ const reviewRouter = require ("./routes/review.js");
 const userRouter = require ("./routes/user.js");
 
 
+const mainDB=process.env.ATLAS_TOKEN;
+
 main().then(() =>{
     console.log("connect");
 });
 async function main() {
-    await mongoose.connect('mongodb://127.0.0.1:27017/StayExplorer');
+    await mongoose.connect(mainDB);
 }
 
 app.set("view engine", "ejs");
