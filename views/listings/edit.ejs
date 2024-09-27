@@ -4,7 +4,7 @@
         <div class="col-8 offset-2">
             <h3>Edit Your listing</h3>
             
-            <form method="POST" action="/Listings/<%=listing._id %>?_method=PUT" novalidate class="needs-validation">
+            <form method="POST" action="/Listings/<%=listing._id %>?_method=PUT" novalidate class="needs-validation" enctype="multipart/form-data" >
                 <div class="mb-3">
                     <label for="title" class="form-label"> Title </label> 
                     <input name="vlisting[title]"value=" <%= listing.title %>" type="text" class="form-control"  required/>
@@ -32,15 +32,16 @@
                 <div class=" invalid-feedback">Country should be valid!</div>
             </div>
         </div>
+        
         <div class="mb-3">
-            <label for="image" class="form-label"> Image/url </label>
-            <input name="vlisting[image]" value="<%= listing.image %>" type="text" class="form-control" required> 
-            <div class=" invalid-feedback"> Enter the image !</div>
+            <label for="image" class="form-label">Upload New Image </label>
+            <input name="vlisting[image]"  type="file" class="form-control"> 
+            
         </div>
         
         <div class="mb-3">
             <label for="location" class="form-label"> Location </label>
-            <input name="vlisting[location]" value="<%= listing.location %>" type="text" class="form-control" required>
+            <input name="vlisitng[location]" value="<%= listing.location %>" type="text" class="form-control" required>
             <div class=" invalid-feedback">Location should be valid!</div>
         </div>
         <div> 
@@ -59,10 +60,6 @@
 
         
             
-       
-               
-               
-        
                
                
                
