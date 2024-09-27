@@ -8,7 +8,7 @@
      
     });
  const marker = new mapboxgl.Marker({
-        color: "#fe424d",
+        color: "#fe424d"
         }).setLngLat(listing.geometry.coordinates)
         .addTo(map);
     
