@@ -23,7 +23,7 @@ module.exports.postSingup = async(req, res ) =>{
  };
 
  module.exports.getLogin =(req, res )=> {
-    res.render("user/singup.ejs");
+    res.render("user/login.ejs");
  };
 
  module.exports.postLogin = async (req , res )=> {
