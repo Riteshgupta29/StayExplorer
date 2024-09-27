@@ -50,7 +50,7 @@ const sessionOptions = {
 
 
  app.get("/", (req, res) =>{
-    res.render("/Listings")
+    res.redirect("/Listings")
  });
 
  
