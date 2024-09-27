@@ -12,6 +12,7 @@ const flash = require ("connect-flash");
 const passport = require ("passport");
 const LocalPassport = require ("passport-local");
 const User = require("./models/user.js");
+const Listing = require("../models/listing.js");
 
 
 
